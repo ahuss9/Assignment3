@@ -1,42 +1,58 @@
-
-h1 {padding: 0px;
+h1 {
+    padding: 0px;
     font-size: 70pt;
     font-style: normal;
     font-family: sans-serif;
     font: Helvetica;
-    vertical-align: middle}
+    vertical-align: middle
+}
 
-img {vertical-align: middle}
+img {
+    vertical-align: middle
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}
 
 .main-nav {
-color: white;
+    color: white;
 }
 
-a {font-size: 20pt;
+a {
+    font-size: 20pt;
     margin-left: 20px;
-    padding: 10px;}
-
-
-
-.center {text-align: center;
-        }
-
-center {
-    
+    padding: 10px;
 }
 
-body {color: red; border-left-style: double; border-width: 20px; background-color: black
+
+
+.center {
+    text-align: center;
 }
 
-video {margin: 15px;
-        
+center {}
+
+body {
+    color: red;
+    border-left-style: double;
+    border-width: 20px;
+    background-color: black
+}
+
+video {
+    margin: 15px;
+
 
 }
 
-p { margin: 12px;
+p {
+    margin: 12px;
     color: white;
     font-size: 15pt;
 }
+
 
 ul {
     margin: 12px;
@@ -47,24 +63,16 @@ li {
     color: white
 }
 
-p2 {
-}
 
-p3 {
-    color: white; margin-left: 12px;
-}
-
-img2 {
-}
-
-p1 {
-    color: white; margin-left: 12px
-        
-}
+.basicp {
+    color: white;
+    margin-left: 12px;}
 
 h2 {
-    color: white; align-content: center; margin: 12px;
-        
+    color: white;
+    align-content: center;
+    margin: 12px;
+
 }
 
 h3 {
@@ -75,7 +83,16 @@ h6 {
     display: inline
 }
 
-h5 {margin-left: 5px;
+h5 {
+    margin-left: 5px;
     display: inline;
     color: aliceblue
 }
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: darkblue
+}
+
+.float left {float:left}
