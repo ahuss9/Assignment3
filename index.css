@@ -26,6 +26,7 @@ a {
     padding: 10px;
 }
 
+a1 {}
 
 
 .center {
@@ -66,7 +67,8 @@ li {
 
 .basicp {
     color: white;
-    margin-left: 12px;}
+    margin-left: 12px;
+}
 
 h2 {
     color: white;
@@ -95,4 +97,6 @@ a:hover {
     text-decoration-color: darkblue
 }
 
-.float left {float:left}
+.float left {
+    float: left
+}
