@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
 h1 {
     padding: 0px;
     font-size: 70pt;
@@ -18,25 +24,18 @@ img {
 
 .main-nav {
     color: white;
-}
-
-a {
     font-size: 20pt;
     margin-left: 20px;
     padding: 10px;
 }
 
-a1 {}
-
-
 .center {
     text-align: center;
 }
 
-center {}
 
 body {
-    color: red;
+    border-color: red;
     border-left-style: double;
     border-width: 20px;
     background-color: black
@@ -48,11 +47,9 @@ video {
 
 }
 
-p {
-    margin: 12px;
-    color: white;
-    font-size: 15pt;
-}
+p {color: white;
+font-size: 18px;
+padding: 0}
 
 
 ul {
@@ -66,6 +63,8 @@ li {
 
 
 .basicp {
+    font-size: 20pt;
+    padding: 10px;
     color: white;
     margin-left: 12px;
 }
@@ -100,3 +99,14 @@ a:hover {
 .float left {
     float: left
 }
+
+header {padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.vidtext {font-size: 12pt;
+    color: white;
+    margin-left: 15px;
+font-family: sans-serif}
+
+
